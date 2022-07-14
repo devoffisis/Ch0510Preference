@@ -6,6 +6,11 @@ plugins {
 android {
     compileSdk 32
 
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "jp.techacademy.yoshitsugu.ch0510preference"
         minSdk 23
